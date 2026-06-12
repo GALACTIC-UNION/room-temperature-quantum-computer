@@ -1,0 +1,8 @@
+models:
+  depolarizing:
+    single_qubit_error: 0.001
+    two_qubit_error: 0.01
+  dephasing:
+    T2_us: 2000
+  amplitude_damping:
+    T1_ms: 6

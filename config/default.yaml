@@ -1,0 +1,12 @@
+substrate:
+  default: nv_center
+  nv_center:
+    T2_us: 2000
+    T1_ms: 6
+    gate_fidelity: 0.999
+  photonic:
+    fock_truncation: 10
+    loss_rate: 0.01
+benchmark:
+  rb_max_clifford_length: 200
+  rb_n_seeds: 50
